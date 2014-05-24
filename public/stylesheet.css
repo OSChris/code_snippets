@@ -1,0 +1,29 @@
+header {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}
+
+nav a {
+  color: #888;
+  text-decoration: none;
+  box-shadow: 2px 2px 5px;
+  padding: 3px 3px;
+}
+
+nav a:hover {
+  color: black;
+}
+
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+}
+
+#main {
+  width: 80%;
+  height: 80%;
+  margin: 5% auto;
+}
