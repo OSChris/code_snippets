@@ -2,6 +2,11 @@ header {
   text-align: center;
 }
 
+img {
+  max-height: 40px;
+  max-width: 40px;
+}
+
 #main {
   text-align: center;
   width: 80%;
@@ -29,12 +34,6 @@ body {
   font-weight: bold;
 }
 
-#list-div {
-  text-align: left;
-  width: 60%;
-  margin: 0 20% 0 20%;
-}
-
 #list-div ul {
   list-style: none;
 }
@@ -44,6 +43,7 @@ body {
 }
 
 #list-div ul li a {
+  text-align: left;
   border: 1px solid;
   box-shadow: 2px 2px 5px;
   padding: 3px 3px;
