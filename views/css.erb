@@ -1,0 +1,17 @@
+<section id='main'>
+<% @snippets.each do |snippet| %>
+  <table class='css-viewer'>
+  <tr>
+    <th><%= snippet.title %></th>
+  </tr>
+  <tr>
+    <td><%= snippet.kind %></td>
+  </tr>
+  <tr>
+      <td><pre class='prettyprint'><%= snippet.work %></pre></td>
+  </tr>
+
+  </table>
+<% end %>
+
+</section>
