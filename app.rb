@@ -2,7 +2,6 @@ require 'sinatra'
 require 'data_mapper'
 
 DataMapper.setup(:default, ENV["DATABASE_URL"] || "sqlite3://#{Dir.pwd}/contractor.db")
-DataMapper::Property::String.length(255)
 
 class Snippet
 
@@ -35,7 +34,7 @@ class Snippet
   property :id,     Serial
 
   property :kind,   String
-  property :title,  String
+  property :title,  Text
   property :work,   Text
 
 end
