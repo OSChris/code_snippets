@@ -32,7 +32,7 @@ class Snippet
   property :id,     Serial
 
   property :kind,   String
-  property :title,  String
+  property :title,  String, length: 150
   property :work,   Text
 
 end
