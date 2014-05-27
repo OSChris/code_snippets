@@ -3,6 +3,8 @@ require 'data_mapper'
 
 DataMapper.setup(:default, ENV["DATABASE_URL"] || "sqlite3://#{Dir.pwd}/contractor.db")
 
+#TODO - ASK ANDREW OR TAM HOW TO FIX MY HEROKU DATABASE
+
 class Snippet
 
   attr_accessor :kind_array
